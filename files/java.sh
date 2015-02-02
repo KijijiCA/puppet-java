@@ -10,7 +10,7 @@ fi
 export DYLD_FALLBACK_LIBRARY_PATH="$BOXEN_HOME/homebrew/lib:$DYLD_FALLBACK_LIBRARY_PATH"
 
 if [ -x /usr/libexec/java_home ]; then
-  export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+  export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 fi
 
 exec /usr/bin/java "$@"
